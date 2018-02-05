@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<launch>
+    <node pkg="positions_to_paths" type="p2p.py" respawn="false" name="positions_to_paths" output="screen">
+        <rosparam file="$(find positions_to_paths)/config/p2p.yaml" command="load" />
+    </node>
+</launch>

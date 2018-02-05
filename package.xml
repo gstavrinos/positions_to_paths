@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>positions_to_paths</name>
+  <version>0.1.0</version>
+  <description>The positions_to_path package</description>
+
+  <maintainer email="gstavrinos@iit.demokritos.gr">George Stavrinos</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <export>
+  </export>
+</package>
